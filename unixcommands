@@ -1,0 +1,8 @@
+for copying folders and files
+=============================
+cp -a source/. /dest
+
+-a -- all files and folders
+.  -- dot means even hidden files
+
+IMP: create a folder first at the destination before copying
