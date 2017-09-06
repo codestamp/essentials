@@ -1,0 +1,17 @@
+Creating a new repository commandline
+=====================================
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/codestamp/essentials.git
+git push -u origin master
+
+Push an existing repository
+===========================
+
+git remote add origin https://github.com/codestamp/essentials.git
+git push -u origin master
+
+
+
