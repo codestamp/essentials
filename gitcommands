@@ -22,4 +22,9 @@ step3: open the terminal and create a directory where you want to clone
 step4: type
         git clone **paste the url here and enter**
 
+to update/modify a existing file
+=================================
 
+step1: git add <filename>
+step2: git commit -m "message"
+step3: git push -u origin master
