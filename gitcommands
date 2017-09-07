@@ -13,5 +13,13 @@ Push an existing repository
 git remote add origin https://github.com/codestamp/essentials.git
 git push -u origin master
 
+For cloning a repository on the computer
+========================================
+
+step1: go to the weblink of the repository and click (clone or download) button.
+step2: Copy the clone url
+step3: open the terminal and create a directory where you want to clone
+step4: type
+        git clone **paste the url here and enter**
 
 
