@@ -1,0 +1,28 @@
+Source: https://stackoverflow.com/questions/17924705/structure-of-arrays-vs-array-of-structures-in-cuda
+
+Selecting AoS or SoA depends on the memory access pattern.
+
+
+****************************
+struct {
+	uint8_t r,g,b;
+} AoS[N];
+
+
+struct {
+	uint8_t r[N];
+	uint8_t g[N];
+	uint8_t b[N];
+} SoA;
+***************************
+
+If R/G/B components of a pixel need to be concurrently accessed we 
+go for AoS.
+
+If a single channel R/G/B of all pixels need to be modified/ processed together
+then we opt for SoA.
+
+The selection plays a major role in memeory coalescing.
+
+
+
