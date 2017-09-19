@@ -24,4 +24,7 @@ ex:
 
 :272
 
+auto-indent the file
+======================
 
+gg=G
