@@ -1,7 +1,7 @@
 Creating a new repository commandline
 =====================================
 
-git init
+git init [project-name]
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/codestamp/essentials.git
