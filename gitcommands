@@ -9,7 +9,6 @@ git push -u origin master
 
 Push an existing repository
 ===========================
-
 git remote add origin https://github.com/codestamp/essentials.git
 git push -u origin master
 
@@ -24,7 +23,15 @@ step4: type
 
 to update/modify a existing file
 =================================
-
+Step1: first you pull from remote-->update old changes
+       git pull
 step1: git add <filename>
 step2: git commit -m "message"
 step3: git push -u origin master
+
+How to create a GIT repository in existing folder full of files
+===============================================================
+
+The safest way to do this is to create a new repo on the server, clone the 
+empty repo into a new folder and copy/move the existing files into that.
+
