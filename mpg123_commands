@@ -1,0 +1,2 @@
+mpg123 -zCv *.mp3
+-z option for shuffle
