@@ -2,18 +2,23 @@ selecting text (yanking) and copying to  a different location
 indicated by a cursor
 ============================================================
 
+COPY, CUT & PASTE
+-----------------
 esc -> press 'v' (visual mode) -> select text using up/down arrow key
 then move to the designated location and paste by pressing 'p'
-or delete by pressing key 'd'
+or delete(cut) by pressing key 'd'
 
 Finding word in vim
 ====================
 
-esc -> type '\' followed by the word to be searched
+esc -> go to the commandline by typing ':' -> type '/' or '?' followed by the word to be searched 
+for the next word press 'n'
 
-example:
+example: To find the word "findme"
 
-:\findme
+:/findme   
+or
+:?findme
 
 Going to a specific line number while inside vim
 ============================================
