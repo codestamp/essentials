@@ -1,0 +1,4 @@
+CUDA Toolkit Version
+====================
+
+nvcc -V

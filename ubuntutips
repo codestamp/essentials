@@ -4,3 +4,6 @@ Press shift + printscr --> a mouse pointer select is highlighted.
 Select the screen and copy it on the clipboard
 ===================================================================
 
+Merging multiple PDF files commandline using gs
+
+gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=merged_file.pdf -dBATCH first.pdf second.pdf 
